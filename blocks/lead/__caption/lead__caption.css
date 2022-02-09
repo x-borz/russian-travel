@@ -10,9 +10,9 @@
   color: #fff;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .lead__caption {
-    padding-left: 16px;
+    padding-left: 48px;
   }
 }
 
@@ -22,8 +22,8 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 425px) {
   .lead__caption {
-    padding-left: 48px;
+    padding-left: 16px;
   }
 }
