@@ -13,7 +13,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .intro__container {
-    padding: 92px 0 0 48px;
+    padding: 92px 24px 0 24px;
     max-width: 720px;
   }
 }
@@ -21,13 +21,11 @@
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .intro__container {
     padding: 88px 24px 0 24px;
-    max-width: 720px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .intro__container {
     padding: 64px 16px 0 16px;
-    max-width: 720px;
   }
 }
