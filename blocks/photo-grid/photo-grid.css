@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(calc((100% - 16px * 3) / 4), 1fr));
   gap: 16px;
-  padding: 92px 48px 0 48px;
+  padding: 92px 48px 12px 48px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
@@ -16,14 +16,14 @@
 @media screen and (min-width: 425px) and (max-width: 1024px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(calc((100% - 16px) / 2), 1fr));
-    padding: 88px 24px 0 24px;
+    padding: 88px 24px 15px 24px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .photo-grid {
     grid-template-columns: 1fr;
-    padding: 64px 16px 0 16px;
+    padding: 64px 16px 14px 16px;
     gap: 12px;
   }
 }
