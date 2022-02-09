@@ -1,6 +1,5 @@
 .lead__image {
   width: 100%;
-  height: auto;
   object-fit: cover;
   box-sizing: border-box;
   padding: 64px 148px 0 148px;
