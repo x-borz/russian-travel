@@ -1,0 +1,8 @@
+.cover__container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.cover__container:hover .cover__overlay {
+  background-color: rgba(42, 44, 47, 0.3);
+}
