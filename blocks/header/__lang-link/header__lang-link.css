@@ -7,7 +7,12 @@
   text-decoration: none;
   outline: none;
   padding: 0 0 6px 18px;
-  display: block;
+  opacity: 1;
+  transition: opacity linear .5s;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 425px) {
