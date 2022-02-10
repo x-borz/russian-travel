@@ -7,8 +7,15 @@
   font-weight: bold;
   font-size: 12px;
   line-height: 1.5;
+  max-width: 690px;
 }
 
-.intro__list  .intro__span-number {
+.intro__list .intro__span-number {
   font-weight: normal;
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__list {
+    max-width: 100%;
+  }
 }
