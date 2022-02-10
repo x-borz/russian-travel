@@ -9,6 +9,6 @@
   line-height: 1.5;
 }
 
-.intro__list span {
+.intro__list  .intro__span-number {
   font-weight: normal;
 }
