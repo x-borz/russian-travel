@@ -5,3 +5,24 @@
   column-gap: 40px;
   row-gap: 48px;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place {
+    column-gap: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place {
+    padding-top: 73px;
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    padding-top: 50px;
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+}
