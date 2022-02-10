@@ -7,6 +7,6 @@
   color: #aaa;
 }
 
-.place__url-heading::after {
+.place__url-heading:after {
   content: "URL";
 }

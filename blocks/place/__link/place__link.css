@@ -7,9 +7,9 @@
   color: #fff;
   padding-top: 12px;
   opacity: 1;
-  transition: opacity linear .8s;
+  transition: opacity linear .5s;
 }
 
 .place__link:hover {
-  opacity: 0.5;
+  opacity: 0.8;
 }
