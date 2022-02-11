@@ -6,7 +6,7 @@
   color: #fff;
   text-decoration: none;
   outline: none;
-  padding-right: 18px;
+  margin-right: 18px;
   opacity: 1;
   transition: opacity linear .5s;
 }
