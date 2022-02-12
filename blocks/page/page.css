@@ -12,4 +12,6 @@
   -moz-text-size-adjust: 100%;
 
   margin: 0;
+
+  min-width: 320px;
 }
