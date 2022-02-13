@@ -7,17 +7,11 @@
   line-height: 1.074;
   color: #FFFFFF;
   max-width: 690px;
+  width: 100%;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
   .intro__title {
-    max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .intro__title {
-    max-width: 100%;
     font-size: 32px;
   }
 }

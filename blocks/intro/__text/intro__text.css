@@ -7,10 +7,5 @@
   line-height: 1.63;
   color: #FFFFFF;
   max-width: 690px;
-}
-
-@media screen and (max-width: 1023px) {
-  .intro__text {
-    max-width: 100%;
-  }
+  width: 100%;
 }
