@@ -11,7 +11,7 @@
 
 .cover::after {
   content: '';
-  padding-top: 62.5%;    /* соотношение сторон фонового изображения width / height */
+  padding-top: 62.5%; /* соотношение сторон фонового изображения width / height */
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
