@@ -1,5 +1,17 @@
 .cover {
   padding: 92px 48px 0 48px;
+  display: flex;
+  background-image: url('../../images/cover-trains.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-origin: content-box;
+  box-sizing: border-box;
+}
+
+.cover::after {
+  content: '';
+  padding-top: 62.5%;    /* соотношение сторон фонового изображения width / height */
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
